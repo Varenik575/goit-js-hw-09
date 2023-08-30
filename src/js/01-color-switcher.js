@@ -5,6 +5,7 @@ const background = document.querySelector('body');
 startBtn.addEventListener('click', onStart);
 stopBtn.addEventListener('click', onStop);
 
+let timerId;
 
 function onStart(event) {
     startBtn.disabled = true;
